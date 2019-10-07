@@ -304,7 +304,8 @@ export default {
     font-weight: 500;
     color: white;
     z-index: 1;
-
+    margin-left:15px;
+    margin-right:15px;
     &.v-left {
       left: 10px;
     }
