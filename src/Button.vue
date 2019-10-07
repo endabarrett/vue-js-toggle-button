@@ -301,7 +301,7 @@ export default {
   .v-switch-label {
     position: absolute;
     top: 0;
-    font-weight: 600;
+    font-weight: 500;
     color: white;
     z-index: 1;
 
