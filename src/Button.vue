@@ -47,7 +47,7 @@ const DEFAULT_LABEL_CHECKED = 'on'
 const DEFAULT_LABEL_UNCHECKED = 'off'
 const DEFAULT_SWITCH_COLOR = '#fff'
 
-const contains = (object, title) => 
+const contains = (object, title) =>
   typeof object === 'object' && object.hasOwnProperty(title)
 
 const px = v => v + 'px'
@@ -126,7 +126,7 @@ export default {
   computed: {
     className () {
       let { toggled, disabled } = this
-      
+
       return ['vue-js-switch', { toggled, disabled }]
     },
 
@@ -288,7 +288,7 @@ export default {
   position: relative;
   vertical-align: middle;
   user-select: none;
-  font-size: 10px;
+  font-size: 14px;
   cursor: pointer;
 
   .v-switch-input {
