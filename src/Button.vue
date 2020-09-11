@@ -307,11 +307,11 @@ export default {
     margin-left:15px;
     margin-right:15px;
     &.v-left {
-      left: 10px;
+      left: 20px;
     }
 
     &.v-right {
-      right: 10px;
+      right: 20px;
     }
   }
 
